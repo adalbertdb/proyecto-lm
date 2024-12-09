@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../antEjercicio/">
+        <link rel="prev" href="../ant/">
       
       
-        <link rel="next" href="../edd2/">
+        <link rel="next" href="../edd1/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Tabla de los lenguajes de programación más utilizados. - Documentación de las tareas</title>
+        <title>Proyecto Simple de Calculadora con Ant - Documentación de las tareas</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tabla-de-los-lenguajes-de-programacion-mas-utilizados" class="md-skip">
+        <a href="#proyecto-simple-de-calculadora-con-ant" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tabla de los lenguajes de programación más utilizados.
+              Proyecto Simple de Calculadora con Ant
             
           </span>
         </div>
@@ -266,27 +266,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../antEjercicio/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proyecto Simple de Calculadora con Ant
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -299,7 +278,95 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Proyecto Simple de Calculadora con Ant
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Proyecto Simple de Calculadora con Ant
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del Proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codigo-fuente-de-la-calculadora" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código Fuente de la Calculadora
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivo-buildxml" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archivo build.xml
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pasos-para-ejecutar-el-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos para Ejecutar el Proyecto
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edd1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -308,7 +375,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -656,6 +722,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del Proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codigo-fuente-de-la-calculadora" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código Fuente de la Calculadora
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivo-buildxml" class="md-nav__link">
+    <span class="md-ellipsis">
+      Archivo build.xml
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pasos-para-ejecutar-el-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos para Ejecutar el Proyecto
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -669,79 +779,135 @@
                   
 
 
-<h1 id="tabla-de-los-lenguajes-de-programacion-mas-utilizados">Tabla de los lenguajes de programación más utilizados.</h1>
-<table>
-<thead>
-<tr>
-<th>Puesto</th>
-<th>Lenguaje</th>
-<th>Uso</th>
-<th>Principales Características</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Python</td>
-<td>28.9%</td>
-<td>Sencillo, versátil, ideal para IA, ciencia de datos, y desarrollo web.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>JavaScript</td>
-<td>17.8%</td>
-<td>Dominante en desarrollo web, tanto en frontend como backend (Node.js).</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Java</td>
-<td>10.2%</td>
-<td>Robusto, portable, ampliamente usado en aplicaciones empresariales.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>C#</td>
-<td>6.6%</td>
-<td>Orientado a objetos, usado en desarrollo de aplicaciones Microsoft.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>C/C++</td>
-<td>6.3%</td>
-<td>Alto rendimiento, bajo nivel, utilizado en sistemas operativos y juegos.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>TypeScript</td>
-<td>5.9%</td>
-<td>Superconjunto de JavaScript, ofrece tipado estático para grandes proyectos.</td>
-</tr>
-<tr>
-<td>7</td>
-<td>PHP</td>
-<td>3.8%</td>
-<td>Usado en backend web, ampliamente conocido por aplicaciones como WordPress.</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Swift</td>
-<td>2.5%</td>
-<td>Lenguaje moderno para desarrollo de aplicaciones iOS/macOS.</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Kotlin</td>
-<td>2.3%</td>
-<td>Compatible con Java, preferido para desarrollo Android.</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Ruby</td>
-<td>1.9%</td>
-<td>Enfocado en simplicidad, popular en desarrollo web con Ruby on Rails.</td>
-</tr>
-</tbody>
-</table>
+<h1 id="proyecto-simple-de-calculadora-con-ant">Proyecto Simple de Calculadora con Ant</h1>
+<p>En este documento explico cómo he creado un proyecto simple de una calculadora usando Apache Ant. El proyecto incluye las operaciones básicas de suma, resta, multiplicación y división.</p>
+<h2 id="estructura-del-proyecto">Estructura del Proyecto</h2>
+<p>Creé la siguiente estructura de carpetas y archivos:</p>
+<pre><code>calculadora/
+├── src/
+│   └── Calculadora.java
+├── build/
+├── dist/
+├── build.xml
+</code></pre>
+<ul>
+<li><strong><code>src/</code></strong>: Contiene el código fuente.</li>
+<li><strong><code>build/</code></strong>: Almacena los archivos <code>.class</code> después de compilar.</li>
+<li><strong><code>dist/</code></strong>: Contiene el archivo JAR o ejecutable si se requiere empaquetar.</li>
+<li><strong><code>build.xml</code></strong>: Archivo de configuración de Ant.</li>
+</ul>
+<h2 id="codigo-fuente-de-la-calculadora">Código Fuente de la Calculadora</h2>
+<p>Creé el archivo <code>src/Calculadora.java</code> con el siguiente contenido:</p>
+<pre><code class="language-java">package calculadora;
+
+import java.util.Scanner;
+
+public class Calculadora {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println(&quot;Bienvenido a la Calculadora&quot;);
+        System.out.println(&quot;Elige una operación: &quot;);
+        System.out.println(&quot;1. Sumar&quot;);
+        System.out.println(&quot;2. Restar&quot;);
+        System.out.println(&quot;3. Multiplicar&quot;);
+        System.out.println(&quot;4. Dividir&quot;);
+
+        int opcion = scanner.nextInt();
+        System.out.println(&quot;Ingresa el primer número:&quot;);
+        double num1 = scanner.nextDouble();
+        System.out.println(&quot;Ingresa el segundo número:&quot;);
+        double num2 = scanner.nextDouble();
+
+        double resultado = 0;
+
+        switch (opcion) {
+            case 1:
+                resultado = num1 + num2;
+                break;
+            case 2:
+                resultado = num1 - num2;
+                break;
+            case 3:
+                resultado = num1 * num2;
+                break;
+            case 4:
+                if (num2 != 0) {
+                    resultado = num1 / num2;
+                } else {
+                    System.out.println(&quot;Error: División por cero.&quot;);
+                    return;
+                }
+                break;
+            default:
+                System.out.println(&quot;Opción no válida.&quot;);
+                return;
+        }
+
+        System.out.println(&quot;El resultado es: &quot; + resultado);
+    }
+}
+</code></pre>
+<h2 id="archivo-buildxml">Archivo <code>build.xml</code></h2>
+<p>Creé el archivo <code>build.xml</code> en la raíz del proyecto con el siguiente contenido:</p>
+<pre><code class="language-xml">&lt;project name=&quot;Calculadora&quot; default=&quot;run&quot; basedir=&quot;.&quot;&gt;
+    &lt;!-- Variables de directorio --&gt;
+    &lt;property name=&quot;src.dir&quot; value=&quot;src&quot; /&gt;
+    &lt;property name=&quot;build.dir&quot; value=&quot;build&quot; /&gt;
+    &lt;property name=&quot;dist.dir&quot; value=&quot;dist&quot; /&gt;
+    &lt;property name=&quot;main.class&quot; value=&quot;calculadora.Calculadora&quot; /&gt;
+
+    &lt;!-- Target: limpiar --&gt;
+    &lt;target name=&quot;clean&quot;&gt;
+        &lt;delete dir=&quot;${build.dir}&quot; /&gt;
+        &lt;delete dir=&quot;${dist.dir}&quot; /&gt;
+    &lt;/target&gt;
+
+    &lt;!-- Target: compilar --&gt;
+    &lt;target name=&quot;compile&quot; depends=&quot;clean&quot;&gt;
+        &lt;mkdir dir=&quot;${build.dir}&quot; /&gt;
+        &lt;javac srcdir=&quot;${src.dir}&quot; destdir=&quot;${build.dir}&quot; includeantruntime=&quot;false&quot; /&gt;
+    &lt;/target&gt;
+
+    &lt;!-- Target: ejecutar --&gt;
+    &lt;target name=&quot;run&quot; depends=&quot;compile&quot;&gt;
+        &lt;java classname=&quot;${main.class}&quot; fork=&quot;true&quot;&gt;
+            &lt;classpath&gt;
+                &lt;pathelement path=&quot;${build.dir}&quot; /&gt;
+            &lt;/classpath&gt;
+        &lt;/java&gt;
+    &lt;/target&gt;
+&lt;/project&gt;
+</code></pre>
+<h2 id="pasos-para-ejecutar-el-proyecto">Pasos para Ejecutar el Proyecto</h2>
+<ol>
+<li><strong>Preparar el Proyecto</strong>:</li>
+<li>Creé las carpetas y archivos según la estructura.</li>
+<li>
+<p>Me aseguré de que el código fuente y el archivo <code>build.xml</code> estuvieran en las ubicaciones correctas.</p>
+</li>
+<li>
+<p><strong>Limpiar el Proyecto</strong>:
+   Ejecuté el siguiente comando para eliminar archivos generados previamente:
+   <code>bash
+   ant clean</code></p>
+</li>
+<li>
+<p><strong>Compilar el Código</strong>:
+   Compilé el proyecto ejecutando:
+   <code>bash
+   ant compile</code>
+   Esto generó los archivos <code>.class</code> en la carpeta <code>build/</code>.</p>
+</li>
+<li>
+<p><strong>Ejecutar la Calculadora</strong>:
+   Para ejecutar la calculadora, utilicé:
+   <code>bash
+   ant run</code></p>
+</li>
+</ol>
+<p>Esto inició la aplicación en la terminal.</p>
+<hr />
 
 
 
