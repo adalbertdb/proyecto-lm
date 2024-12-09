@@ -2,11 +2,11 @@
 Hola soy Dennis, aquí está la lista de tareas que he hecho en LMI y EDD. (WIP)
 
 ### LMI
-1. [Identificacíon de características en los lenguajes de marca.](lmi/lmi1)
+1. [Identificacíon de características en los lenguajes de marca.](LMI/lmi1.md)
 
 ### EDD
-1. [Lenguajes de desarrollo más utilizados.](edd/edd1)
-2. [Como desarrollar cualquier tipo de aplicación.](edd/edd2)
-3. [Ejemplos de traducción. Ordenes python3, cc, java y javac.](edd/edd3)
-4. [El efecto bola de nieve](edd/edd4)
-5. [La web de una empresa](edd/edd5)
+1. [Lenguajes de desarrollo más utilizados.](EDD/edd1.md)
+2. [Como desarrollar cualquier tipo de aplicación.](EDD/edd2.md)
+3. [Ejemplos de traducción. Ordenes python3, cc, java y javac.](EDD/edd3.md)
+4. [El efecto bola de nieve](EDD/edd4.md)
+5. [La web de una empresa](EDD/edd5.md)

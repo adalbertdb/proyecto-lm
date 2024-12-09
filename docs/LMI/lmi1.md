@@ -6,11 +6,11 @@ Un lenguaje de marca es un tipo de lenguaje de programación que se utiliza prin
 ### Lenguajes de marcas populares.
 
 #### HTML
-HyperText Markup Language: Usado para estructurar el contenido de páginas web, definiendo elementos como encabezados, párrafos, imágenes, enlaces, etc. [Ejemplo de un documento HTML](recursos/html)
+HyperText Markup Language: Usado para estructurar el contenido de páginas web, definiendo elementos como encabezados, párrafos, imágenes, enlaces, etc. [Ejemplo de un documento HTML](../recursos/html.md)
 
 #### XML
-  Extensible Markup Language: Un formato flexible para almacenar y transportar datos de forma estructurada. [Ejemplo de un documento XML de Writer](recursos/writer) y [Ejemplo de un documento XML de android](recursos/android_manifest)
+  Extensible Markup Language: Un formato flexible para almacenar y transportar datos de forma estructurada. [Ejemplo de un documento XML de Writer](../recursos/writer.md) y [Ejemplo de un documento XML de android](../recursos/android_manifest.md)
 
 
 #### SVG
- Scalable Vector Graphics: Es un lenguaje de marcas basado en XML para describir gráficos vectoriales en dos dimensiones. Permite crear imágenes que pueden escalarse sin perder calidad, lo que lo hace ideal para gráficos en la web, como logotipos, iconos o diagramas. [Ejemplo de logo hecho con SVG](recursos/logo)
+ Scalable Vector Graphics: Es un lenguaje de marcas basado en XML para describir gráficos vectoriales en dos dimensiones. Permite crear imágenes que pueden escalarse sin perder calidad, lo que lo hace ideal para gráficos en la web, como logotipos, iconos o diagramas. [Ejemplo de logo hecho con SVG](../recursos/logo.md)
