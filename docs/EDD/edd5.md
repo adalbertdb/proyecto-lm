@@ -9,4 +9,4 @@ Para una página web de una empresa yo seguiría el método de **dessarrollo evo
 + Si el cliente acepta el prototipo este se irá mejorando hasta llegar al desarrollo completo 
 + En cualquier fase de un prototipo el cliente puede dejar indicaciones sobre como mejorar la web y evaluar si el dessarrollo se está llevando a cabo según sus necesidades y preferencias. 
 
-![Esquema Desarrollo mediante prototipos](/images/esquemaPrototipos.png)
+![Esquema Desarrollo mediante prototipos](images/esquemaPrototipos.png)
