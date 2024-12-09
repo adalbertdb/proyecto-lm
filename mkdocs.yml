@@ -1,0 +1,10 @@
+site_name: 'Documentación de las tareas'
+theme:
+  name: material
+  pallette: 
+    primary: black
+    accents: pink
+  
+  font:
+    text: roboto
+    code: roboto Mono
