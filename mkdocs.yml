@@ -1,6 +1,7 @@
 site_name: 'Documentación de las tareas'
 theme:
   name: material
+  custom_dir: overrides
   pallette: 
     primary: black
     accents: pink
