@@ -1,7 +1,7 @@
 site_name: 'Documentación de las tareas'
 theme:
   name: material
-  custom_dir: overrides
+  extra_css: overrides/extra.css
   pallette: 
     primary: black
     accents: pink
