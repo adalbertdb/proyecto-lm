@@ -2,10 +2,10 @@ site_name: 'Documentación de las tareas'
 theme:
   name: material
   extra_css: overrides/extra.css
-  pallette: 
+  palette: 
     primary: black
     accents: pink
   
   font:
     text: roboto
-    code: roboto Mono
+    code: roboto Mono 
